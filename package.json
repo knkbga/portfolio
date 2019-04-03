@@ -1,8 +1,12 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "A portfolio website for Kanak Bagga.",
+  "description": "Portfolio",
   "main": "app",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,21 +14,6 @@
     "type": "git",
     "url": "git+ssh://git@bitbucket.org/knkbga/portfolio.git"
   },
-  "keywords": [
-    "Portfolio",
-    "Kanak",
-    "Bagga",
-    "Kanak",
-    "Bagga",
-    "Developer",
-    "Freelancing",
-    "Development",
-    "Coder",
-    "Front-end",
-    "Frontend",
-    "Back-end",
-    "Backend"
-  ],
   "author": "knkbga",
   "license": "ISC",
   "homepage": "https://bitbucket.org/knkbga/portfolio#readme"
