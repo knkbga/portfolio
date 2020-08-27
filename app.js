@@ -11,4 +11,4 @@ app.get('/resume', function (req, res) {
    res.sendFile(path.join(__dirname + '/public/resume.pdf'))
 })
 
-app.listen(8080)
+app.listen(3000)
