@@ -1,14 +1,12 @@
 var express = require('express')
 var app = express()
+var port = 8080
 var path = require('path')
 
-app.use(express.static('public'))
-
-app.get('/', function (req, res) {
-   res.sendFile(path.join(__dirname + '/public/index.html'))
-})
-app.get('/resume', function (req, res) {
-   res.sendFile(path.join(__dirname + '/public/resume.pdf'))
+app.use(express.static(path.join(__dirname, 'public')))
+app.get("/", function (req, res) {
+   res.render('index')
 })
 
-app.listen(3000)
+app.listen(port, '172.31.6.66')
+console.log('The App runs on port ' + port)
